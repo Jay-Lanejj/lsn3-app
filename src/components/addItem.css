@@ -1,0 +1,75 @@
+.App{
+    justify-content: center;
+    margin-left: 150px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: serif;
+}
+
+select{
+    width: 515px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: serif;
+    color: rgb(80, 75, 75);
+}
+
+#btn{
+    color: black;
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 30px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: serif;
+    background-color: rgb(142, 142, 226);
+}
+#btn:hover{
+    background-color: white;
+}
+
+/*For the form*/
+.form-style{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(138, 94, 94);
+}
+.container{
+    text-align: center;
+
+}
+/* .todo-btn{
+    height: 30px;
+} */
+.headings{
+    margin-top: 15px;
+}
+/* .todo-btn{
+    width: 50px;
+    margin-top: 10px;
+} */
+.todo-button{
+    width: 70px;
+    height: 30px;
+    background-color: green;
+}
+.del-btn{
+    background-color: red;
+}
+.output{
+    background-color: rgb(221, 187, 187);
+    width: 500px;
+    border-radius: 10px;
+}
