@@ -32,11 +32,12 @@ function TodoForm() {
         />
         <button type="submit" className="todo-button" >Add Todo</button>
       </form>
-      <div className="output">
-      {todos.map((todo) => <div key={todo.id}>
-                              <div>{todo.text}</div>
-                              <button className="del-btn" onClick={()=> deleteTodo(todo.id)}>delete</button>
 
+      <div className="output">
+      {todos.map((todo) => <div className="col1" key={todo.id}>
+                              {todo.text}
+                              <button className="del-btn" onClick={()=> deleteTodo(todo.id)}>delete</button>
+                              
                             </div>)}
       </div>
 
