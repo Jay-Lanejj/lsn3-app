@@ -70,6 +70,13 @@ select{
 }
 .output{
     background-color: rgb(221, 187, 187);
-    width: 500px;
+    width: 550px;
+    line-height: 3px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+}
+.col1{
+    margin-top: 5%;
 }
